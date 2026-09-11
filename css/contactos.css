@@ -22,20 +22,20 @@
 
 /* formulario */
 body{
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     
 }
 
 form{
     padding: 0.5em;
-    max-width: 600px;
+    max-width: 500px;
     box-shadow: 0 0 6px var(--colorSombras);
     margin: 12% auto;
-    align-items: left;
+    align-items: center;
     background-color: #fefffd;
-    padding: 50px;
-    width: 8000px;
+    padding: 5px;
+    width: 800px;
     height: 500px;
 }
 
@@ -67,17 +67,19 @@ textarea{
 }
 .formulario{
     padding-top: 2em;
-    margin-top: 5em;
+    margin-top: 3em;
     font-weight: 450px;
-    align-items: left;
+    align-items: center;
 }
 /* Barra de navegacion */
 .barra{
-    padding-top: 2em;
-    margin-top: -2em;
-    margin-bottom: -10px;
+    padding-top: 4em;
+    margin-top: -3em;
+    margin-bottom: 10px;
     background-color: #ffa500;
-    height: 130px;
+    height: 199px;
+    padding: 0;
+    margin: 0;
 }
 
 .text:hover{
