@@ -17,11 +17,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
+
 /* formulario */
 body{
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    
 }
 
 form{
@@ -29,7 +32,11 @@ form{
     max-width: 600px;
     box-shadow: 0 0 6px var(--colorSombras);
     margin: 12% auto;
-   
+    align-items: left;
+    background-color: #fefffd;
+    padding: 50px;
+    width: 8000px;
+    height: 500px;
 }
 
 input{
@@ -62,6 +69,7 @@ textarea{
     padding-top: 2em;
     margin-top: 5em;
     font-weight: 450px;
+    align-items: left;
 }
 /* Barra de navegacion */
 .barra{
@@ -69,6 +77,7 @@ textarea{
     margin-top: -2em;
     margin-bottom: -10px;
     background-color: #ffa500;
+    height: 130px;
 }
 
 .text:hover{
@@ -78,5 +87,9 @@ textarea{
     
 }
 .text{
-    border-radius: 120px;
+    border-radius: 121px;
+}
+.Logo{
+    height: auto;
+    width: 70px;
 }
